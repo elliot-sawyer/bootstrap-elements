@@ -1,5 +1,5 @@
 {
-    "name": "cashware/bootswatcher-elements",
+    "name": "cashware/bootstrap-elements",
     "type": "silverstripe-vendormodule",
     "description": "Bootswatch Components, defined as Silverstripe Elements",
     "require": {
