@@ -2,6 +2,19 @@
     "name": "cashware/bootstrap-elements",
     "type": "silverstripe-vendormodule",
     "description": "Bootswatch Components, defined as Silverstripe Elements",
+    "license": "BSD-3-Clause",
+    "authors": [
+      {
+        "name": "Elliot Sawyer",
+        "email": "hello@cashware.nz"
+      }
+    ],
+    "keywords": [
+      "silverstripe",
+      "elemental",
+      "bootstrap",
+      "bootswatch"
+    ],
     "require": {
         "php": "^7 | ^8",
         "silverstripe/recipe-cms": "^4 | ^5",
