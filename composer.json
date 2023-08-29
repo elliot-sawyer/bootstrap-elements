@@ -1,0 +1,14 @@
+{
+    "name": "cashware/bootswatcher-elements",
+    "type": "silverstripe-vendormodule",
+    "description": "Bootswatch Components, defined as Silverstripe Elements",
+    "require": {
+        "php": "^7 | ^8",
+        "silverstripe/recipe-cms": "^4 | ^5",
+        "dnadesign/silverstripe-elemental": "^4 | ^5",
+        "symbiote/silverstripe-gridfieldextensions": "^3 | ^4",
+        "gorriecoe/silverstripe-linkfield": "^1"
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
