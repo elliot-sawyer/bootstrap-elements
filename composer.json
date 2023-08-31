@@ -4,16 +4,16 @@
     "description": "Bootswatch Components, defined as Silverstripe Elements",
     "license": "BSD-3-Clause",
     "authors": [
-      {
-        "name": "Elliot Sawyer",
-        "email": "hello@cashware.nz"
-      }
+        {
+            "name": "Elliot Sawyer",
+            "email": "hello@cashware.nz"
+        }
     ],
     "keywords": [
-      "silverstripe",
-      "elemental",
-      "bootstrap",
-      "bootswatch"
+        "silverstripe",
+        "elemental",
+        "bootstrap",
+        "bootswatch"
     ],
     "require": {
         "php": "^7 | ^8",
@@ -23,5 +23,27 @@
         "gorriecoe/silverstripe-linkfield": "^1"
     },
     "prefer-stable": true,
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true,
+            "silverstripe/recipe-plugin": true,
+            "silverstripe/vendor-plugin": true
+        }
+    },
+    "extra": {
+        "project-files-installed": [
+            ".htaccess",
+            "app/.htaccess",
+            "app/_config/mimevalidator.yml",
+            "app/_config/mysite.yml",
+            "app/src/Page.php",
+            "app/src/PageController.php"
+        ],
+        "public-files-installed": [
+            ".htaccess",
+            "index.php",
+            "web.config"
+        ]
+    }
 }
